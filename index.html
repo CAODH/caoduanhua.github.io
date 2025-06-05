@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>曹端华</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+      margin-top: 1.5em;
+    }
+    .header-container {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid #eee;
+    }
+    .profile-photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #2c3e50;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .contact-info {
+      margin-bottom: 1.5rem;
+    }
+    .contact-info a {
+      margin-right: 1rem;
+      color: #3498db;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .contact-info a:hover {
+      color: #2980b9;
+      text-decoration: underline;
+    }
+    .profile-section {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      margin-bottom: 1.5rem;
+    }
+    .profile-details {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .detail-group h3 {
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+      color: #3498db;
+    }
+    .detail-group ul {
+      padding-left: 1.2rem;
+      margin: 0;
+    }
+    .detail-group li {
+      margin-bottom: 0.3rem;
+    }
+    .nav-buttons {
+      margin: 2rem 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .nav-buttons a {
+      text-decoration: none;
+    }
+    .nav-buttons button {
+      background-color: #2c3e50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      font-size: 15px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+    .nav-buttons button:hover {
+      background-color: #3498db;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .current-page {
+      background-color: #3498db !important;
+    }
+    .content-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+    }
+    .research-highlight {
+      background-color: #e8f4fc;
+      padding: 1.5rem;
+      border-left: 4px solid #3498db;
+      margin: 2rem 0;
+      border-radius: 0 4px 4px 0;
+    }
+    .research-highlight p {
+      margin: 0.5rem 0;
+    }
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .footer-quote {
+      text-align: center;
+      margin-top: 3rem;
+      color: #888;
+      font-size: 1.05rem;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header-container">
+    <img src="images/profile.jpg" alt="Profile photo" class="profile-photo" >
+    <div>
+      <h1>曹端华</h1>
+      <div class="contact-info">
+        <strong>Email:</strong> <a href="mailto:caodh@zju.edu.cn">caodh@zju.edu.cn</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-buttons">
+    <a href="index.html" ><button>关于我</button></a>
+    <a href="publications.html" class="current-page"><button>研究工作</button></a>
+    <a href="recruitment.html"><button>招生信息</button></a>
+    <a href="Cooperation.html"><button>合作信息</button></a>
+  </div>
+<div class="profile-section">
+    <h2>个人简介</h2>
+    <p><strong>你好！我是曹端华，我即将从浙江大学取得博士学位并将于2025年七月加入同济大学生物信息学习担任特聘研究员、独立PI、博士生导师。我前期的研究方向为人工智能辅助药物设计，研究内容包括不同模态的药物分子筛选、生成、及优化等。
+        博士期间导师组成员包含上海药物所蒋华良院士，上海药物所郑明月研究员和浙江大学侯廷军教授，博士期间主要由郑明月研究员指导；在郑明月导师的指导下，我接受了严格的科研训练。除此之外，我还在许多行业领先的公司进行过实习，具有丰富的工业界实践经历，涉及推荐系统，分子科学，大语言模型等领域。</strong></p>
+    <div class="profile-details" style="grid-template-columns: repeat(2, 1fr);">
+        <div class="detail-group">
+            <h3>职位 Position</h3>
+            <p>即将加入同济大学生物信息学系 特聘研究员/博士生导师/PI</p>
+            <p><strong>应课题组发展需要，我们正在招收博士后/博士生/硕士生/实习生/研究助理等岗位，欢迎大家来信咨询</strong></p>
+        </div>
+        <div class="detail-group">
+            <h3>教育背景 Education</h3>
+            <ul>
+                <li>2016.09–2020.06：药学，学士，大连理工大学</li>
+                <li>2020.09–2025.06：人工智能辅助药物设计，博士，浙江大学 & 中科院上海药物所</li>
+            </ul>
+        </div>
+        <div class="detail-group">
+            <h3>学术交流 Academic Visit</h3>
+            <ul>
+                <li>2024.06-2024.08：香港中文大学</li>
+            </ul>
+        </div>
+        <div class="detail-group">
+            <h3>实习经历 Internship</h3>
+            <ul>
+                
+                <li>华为 2012 实验室</li>
+                <li>微软亚洲研究院</li>
+                <li>字节跳动</li>
+                <li>阿尔脉</li>
+                <li>Zhipu.AI</li>
+                <strong>工业界经历涉及推荐系统，时序图网络，大语言模型（LLM），分子生成与优化，药物相互作用预测和分子力场开发。</strong>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+  <div class="content-card">
+    <h2>研究成果</h2>
+    
+    
+  <div class="research-highlight">
+    <p><strong>前期研究重点:</strong> 开发具有高泛化性的蛋白-配体相互作用预测算法，并将这些算法应用于：</p>
+    <p>• 蛋白-配体复合物结构预测 (<a href="https://www.nature.com/articles/s41592-024-02516-y" target="_blank">Nature Methods 2024</a>; <a href="https://www.biorxiv.org/content/10.1101/2024.01.31.578200v1" target="_blank">Under Review</a>)</p>
+    <p>• 相对亲和力评估与分子优化 (<a href="https://www.nature.com/articles/s43588-023-00529-9" target="_blank">Nature Computational Science 2023</a>; <a href="https://www.nature.com/articles/s42256-024-00849-z" target="_blank">Nature Machine Intelligence 2024</a>)</p>
+    <p>• 化合物筛选 (<a href="https://www.nature.com/articles/s42256-024-00849-z" target="_blank">Nature Machine Intelligence 2024</a>; <a href="https://www.nature.com/articles/s41590-024-01746-8" target="_blank">Nature Immunology 2023</a>)</p>
+  </div>
+  <h2>未来研究方向</h2>
+  <div class="research-highlight">
+    <p>我们的研究将聚焦于<strong>人工智能、生物信息学与药物设计</strong>的交叉领域，旨在开发新一代智能系统，为临床患者寻找更好的药物，具体包含：</p>
+    <ul>
+      <li>Molecular discovery and design using generative models (small molecule, peptide, antibody ...)</li>
+      <li>Structure- and sequence-based virtual screening and Drug Recommendation System</li>
+      <li>Learning and reasoning from protein–ligand complex data using LLM</li>
+      <li>Multimodal deep learning for binding affinity and complex structure prediction</li>
+    </ul>
+    </div>
+  </div>
+<!-- 在</body>前添加 -->
+<div class="footer-quote">
+  “无限递归，再伟大的思想者也难逃宿命的轮回。”
+</div>
+</body>
+</html>

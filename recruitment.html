@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>曹端华 - 招生信息</title>
+  <style>
+        /* 新增底部样式 */
+    .site-footer {
+      text-align: center;
+      margin: 4rem 0 1rem;
+      padding: 1.5rem 0;
+      color: #666;
+      font-style: italic;
+      font-size: 0.95em;
+      border-top: 1px solid rgba(44, 62, 80, 0.1);
+      position: relative;
+    }
+    .site-footer::before {
+      content: "“";
+      font-size: 2em;
+      position: absolute;
+      left: calc(50% - 2em);
+      top: 0;
+      color: rgba(52, 152, 219, 0.3);
+    }
+    .site-footer::after {
+      content: "”";
+      font-size: 2em;
+      position: absolute;
+      right: calc(50% - 2em);
+      bottom: -0.5em;
+      color: rgba(52, 152, 219, 0.3);
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+      margin-top: 1.5em;
+    }
+    .header-container {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid #eee;
+    }
+    .profile-photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #2c3e50;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .contact {
+      margin-bottom: 1.5rem;
+    }
+    .contact a {
+      margin-right: 1rem;
+      color: #3498db;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .contact a:hover {
+      color: #2980b9;
+      text-decoration: underline;
+    }
+    .nav-buttons {
+      margin: 2rem 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .nav-buttons a {
+      text-decoration: none;
+    }
+    .nav-buttons button {
+      background-color: #2c3e50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      font-size: 15px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+    .nav-buttons button:hover {
+      background-color: #3498db;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .current-page {
+      background-color: #3498db !important;
+    }
+    .content-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+    }
+    .research-highlight {
+      background-color: #e8f4fc;
+      padding: 1.5rem;
+      border-left: 4px solid #3498db;
+      margin: 2rem 0;
+      border-radius: 0 4px 4px 0;
+    }
+    .research-highlight p {
+      margin: 0.5rem 0;
+    }
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .recruitment-item {
+      margin-bottom: 1.5rem;
+      padding: 1.2rem;
+      background-color: #f5f9ff;
+      border-radius: 6px;
+      border-left: 3px solid #3498db;
+    }
+
+    .philosophy-footer {
+        text-align: center;
+        margin: 4rem 0 2rem;
+        padding: 1.5rem;
+        color: #555;
+        font-style: italic;
+        position: relative;
+    }
+    .philosophy-footer::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, #3498db, transparent);
+    }
+    .philosophy-footer:hover {
+        color: #2c3e50;
+        transition: color 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+  <div class="header-container">
+    <img src="images/profile.jpg" alt="曹端华照片" class="profile-photo">
+    <div>
+      <h1>曹端华</h1>
+      <div class="contact">
+        <strong>Email:</strong> <a href="mailto:caodh@zju.edu.cn">caodh@zju.edu.cn</a><br>
+        <strong>Position:</strong> 即将加入同济大学生物信息学系 特聘研究员/博士生导师/PI
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-buttons">
+    <a href="index.html" ><button>Home</button></a>
+    <a href="publications.html"><button>Publications</button></a>
+    <a href="recruitment.html" class="current-page"><button>招生信息</button></a>
+    <a href="Cooperation.html"><button>合作信息</button></a>
+  </div>
+
+<div class="content-card">
+    <h2>招生信息</h2>
+    
+    <div class="recruitment-item">
+        <h3>博士研究生2名，硕士研究生1名 (2026年09月入学，本校学生可以提前入组，欢迎本科生提前联系参与科研项目)</h3>
+        <ul>
+            <li><strong>要求:</strong> 
+                <ul>
+                    <li>计算机科学、生物信息学、药学或相关专业背景</li>
+                    <li>对人工智能与药物设计的交叉研究有强烈兴趣</li>
+                    <li>最好具备编程能力(Python等)和机器学习基础</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="recruitment-item">
+        <h3>博士后，研究助理</h3>
+        <ul>
+            <li><strong>要求:</strong> 
+                <ul>
+                    <li>对人工智能与药物设计的交叉研究有强烈兴趣，有CADD研究经历</li>
+                    <li>最好具备编程能力(Python等)和机器学习基础</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="recruitment-item">
+
+        <h3>一些其他的加分项</h3>
+        <ul>
+            <li>强数学或物理或者计算机相关背景（优先）。</li>
+            <li>药学，生物，等基础学科领域的同学对domain问题的理解深入（优先）。</li>
+            <li>有LLM 相关经验如Pre-training、Post-training,、RLHF、强化学习经验（优先）。</li>
+            <li>有GenAI,如Diffusion、Flow Matching 等模型训练和调试经验（优先）。</li>
+            <li>较强AI工程能力和良好的编码习惯（优先）。</li>
+            <li>能够积极主动拥抱新的生产力工具，并用在自己的研究中（例如，ChatGPT,Github Copilot,DeepSeek等等）（优先）。</li>
+            <li>有自我驱动力self-motivation，和协作能力，容易相处。</li>
+            <li>相关科研经验（小分子筛选、设计、大分子相关课题等）。</li>
+            <li><strong>如果以上的加分项您都暂时不具备，但是非常希望尝试在这个领域发展，也请积极联系，我会安排从一个trial project开始，增进对您的理解，根据您在限定时间内的项目完成情况来进行双向选择。</strong></li>
+        </ul>
+    </div>
+</div>
+<div class="content-card">
+  <h2>课题组氛围</h2>
+  <div class="recruitment-item">
+      <ul>
+          <li>启动经费充足，学校平台配备算力集群，不用担心算力问题。</li>
+          <li>学术/工业机会都很丰富，我与浙江大学、上海药物所、香港理工大学等单位的课题组将会继续保持密切的合作，同时我还在积极寻求海内外合作机会，同时与工业界有密切联系。我将会积极推荐组内同学进入相关单位联合培养和课题合作，同时会积极推荐学有所成的同学进入工业界进行实践和学习，为将来的职业规划做好准备</li>
+          <li>自由的，开放的研究环境，我们会每周和每位同学保持沟通并组织技术分享会，及时帮助大家解决遇到的问题（如果我也解决不了，会积极帮助大家寻求外援），尤其希望从同学身上学习到不同的研究思路和想法，教学相长</li>
+          <li>积极组织组内的课余生活（无论是户外还是室内运动），帮助大家学会享受研究生时光；同时也希望申请的同学有一项自己热爱的运动，能带动自己和同学保持良好的运动习惯</li>
+      </ul>
+  </div>
+</div>
+
+<div class="content-card">
+    <h2>申请流程</h2>
+    <div class="recruitment-item"> 
+    <ol>
+        <li>随时发送简历和成绩单或者项目地址至我的邮箱（caodh@zju.edu.cn），标题可以为：“Application-学校-姓名-Ph.D/Postdoc/RA” 或者任何你觉得很有意思的形式；同时也可以官网报名同济大学生物信息系七月份的学术夏令营</li>
+        <li>初步审核后安排面试并确认意向</li>
+        <li>正式申请同济大学研究生项目</li>
+    </ol>
+    </div>
+</div>
+
+
+<!-- 在</body>前添加 -->
+<div class="philosophy-footer">
+  无限递归，再伟大的思想者也难逃宿命的轮回
+</div>
+</body>
+</html>
